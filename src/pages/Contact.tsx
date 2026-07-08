@@ -98,7 +98,7 @@ export default function Contact() {
                                             href="mailto:socialorbit@gmail.com"
                                             className="mt-1 block text-gray-600 hover:text-[#6C4CF6]"
                                         >
-                                            socialorbit@gmail.com
+                                            socialorbit42@gmail.com
                                         </a>
                                     </div>
                                 </div>
