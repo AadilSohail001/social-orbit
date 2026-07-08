@@ -1,75 +1,190 @@
-# React + TypeScript + Vite
+# 🚀 Social Orbit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and animated software house website built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**. The project showcases Social Orbit's services, technologies, company information, and contact details with a clean and professional user interface.
 
-Currently, two official plugins are available:
+> This repository currently contains the frontend implementation. Backend services and database integration using **Supabase** will be added in future updates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✅ Modern Landing Page
+- ✅ Professional About Page
+- ✅ Contact Us Page
+- ✅ Responsive Design
+- ✅ Smooth Animations with Framer Motion
+- ✅ Interactive Counters
+- ✅ Modern Glassmorphism UI
+- ✅ Mobile Friendly Navigation
+- ✅ Reusable Components
+- ✅ Clean Folder Structure
+- 🔜 Supabase Integration
+- 🔜 Contact Form Submission
+- 🔜 Admin Dashboard
+- 🔜 Dynamic Content Management
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Frontend
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Framer Motion
+- Lucide React
+- React Icons
+- React CountUp
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
+## 📱 Pages
+
+### 🏠 Home
+
+- Hero Section
+- Why Choose Us
+- Services Overview
+- Company Statistics
+- Call To Action
+
+### 👨‍💻 About
+
+- Company Introduction
+- Our Story
+- Mission & Vision
+- Services
+- Core Values
+- Technologies
+- Company Statistics
+- Call To Action
+
+### 📞 Contact
+
+- Contact Information
+- Social Media Links
+- Contact Form
+- Company Address
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/social-orbit.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate to the project
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+cd social-orbit
 ```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Build the project
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 📦 Dependencies
+
+- React
+- React DOM
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
+- Lucide React
+- React Icons
+- React CountUp
+
+---
+
+## 🎨 Design Philosophy
+
+The website is designed with a focus on:
+
+- Modern UI/UX
+- Performance
+- Accessibility
+- Responsive Design
+- Reusable Components
+- Clean Code Architecture
+- Smooth User Experience
+
+---
+
+## 🔜 Future Improvements
+
+- Supabase Integration
+- Authentication
+- CMS Dashboard
+- Portfolio Management
+- Blog Section
+- Testimonials
+- Team Members
+- Project Showcase
+- Email Integration
+- Dark Mode
+- SEO Optimization
+- Performance Improvements
+
+---
+
+## 📍 Contact Information
+
+**Social Orbit**
+
+📍 G-15, Islamabad, Pakistan 44150
+
+📞 +92 349 5289548
+
+📧 socialorbit@gmail.com
+
+### Social Media
+
+- Instagram: https://www.instagram.com/social_orbit3
+- Facebook: https://www.facebook.com/profile.php?id=61582968458295
+- LinkedIn: https://www.linkedin.com/company/social-orbittt/
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Developed By
+
+**Social Orbit**
+
+Building innovative digital experiences through modern web technologies.
+
+⭐ If you like this project, consider giving it a star on GitHub.
