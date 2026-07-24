@@ -5,7 +5,7 @@ import {
     Palette,
     Megaphone,
     Search,
-} from "lucide-react";
+} from "../components/common/Icons";
 
 export const services = [
     {

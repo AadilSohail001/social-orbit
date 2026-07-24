@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Link, NavLink } from "react-router";
+import { Menu, X } from "../common/Icons";
 import { AnimatePresence, motion } from "framer-motion";
 import { navigation } from "../../constants/navigation";
 import logo from "../../assets/logo.png";
@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <header className="fixed top-0 left-0 z-50 w-full">
-            <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-full border border-white/20 bg-white/70 px-6 py-4 shadow-lg backdrop-blur-xl mt-5">
+            <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-full border border-white/20 bg-white/80 px-6 py-4 shadow-lg backdrop-blur-xl mt-5 will-change-transform">
 
                 {/* Logo */}
                 <Link
@@ -22,7 +22,9 @@ export default function Navbar() {
                         <img
                             src={logo}
                             alt="Social Orbit"
-                            className="h-11 w-11 object-contain"
+                            className="h-11 w-11 rounded-full object-cover"
+                            loading="eager"
+                            fetchPriority="high"
                         />
 
                         <span className="text-2xl font-extrabold tracking-tight">

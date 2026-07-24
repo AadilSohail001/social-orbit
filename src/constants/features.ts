@@ -5,7 +5,7 @@ import {
     Users,
     Sparkles,
     Headset,
-} from "lucide-react";
+} from "../components/common/Icons";
 
 export const features = [
     {
